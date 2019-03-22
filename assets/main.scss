@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 14px;
+  // transition: font-size 0.5s;
+  // word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+  // color: #2f3542;
+}
+:root {
+  // colours.cafe The best works "Challenge 2"
+  --title-font: "Raleway", Helvetica, sans-serif;
+  --text-font: "Raleway", Helvetica, sans-serif;
+  --bg-light: #f7f6f4;
+  --bg-dark: #353e60;
+  --font-light: #f7f6f4;
+  --font-dark: #353e60;
+  --cta-btn: #39c3e6;
+  --page-header: #353e60;
+  // navbar
+  --nav-bg: #353e60;
+  --nav-color: #f7f6f4;
+  --nav-active-color: #39c3e6;
+  // about
+  --about-font-color: #353e60;
+  --about-social-color: #ff6854;
+  // skills & work
+  --card-title-bg: #f7f6f4;
+  --card-font-color: #353e60;
+  // --card-tag-bg: #eeeae6;
+  --card-tag-bg: #eae4d3;
+  // cv
+}
+.my-container {
+  min-height: calc(100vh - 60px);
+}
+.my-wrapper {
+  // border: 2px solid #c0392b;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  max-width: 1280px;
+}
+// .page-enter-active,
+// .page-leave-active {
+//   transition: opacity 0.4s ease, transform 0.4s ease;
+// }
+// .page-enter {
+//   opacity: 0;
+//   transform: translateY(-20px);
+// }
+// .page-leave-to {
+//   opacity: 0;
+//   transform: translateY(20px);
+// }
+// .page-enter-to,
+// .page-leave {
+//   opacity: 1;
+//   transform: translateY(0px);
+// }
